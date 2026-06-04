@@ -1,4 +1,13 @@
+# OS / editor
 .DS_Store
-node_modules/
-.env
-*.log
+Thumbs.db
+.idea/
+.vscode/
+__pycache__/
+**/node_modules/
+**/dist/
+
+# Env files
+**/.env
+**/.env.*
+!**/.env.example
